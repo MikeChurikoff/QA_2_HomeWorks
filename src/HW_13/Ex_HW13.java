@@ -20,7 +20,7 @@ public class Ex_HW13 {
         System.out.println(string1+" "+string2+string4+" "+string3+string5);*/
 
 
-        int number = 12;
+        int number = 13;
         int two = 2;
         boolean chet = number%two == 0;
         System.out.println("Число number имеет значение"+" "+number);
