@@ -20,13 +20,17 @@ public class Ex_HW13 {
         System.out.println(string1+" "+string2+string4+" "+string3+string5);*/
 
 
-        int number = 13;
+        /*String string = "Anyone who has never made\n a mistake has never tried\n\s anything new.\n\s\s Albert Einstein.";
+        System.out.println(string);*/
+
+
+       /* int number = 13;
         int two = 2;
         boolean chet = number%two == 0;
         System.out.println("Число number имеет значение"+" "+number);
         System.out.println("Является ли оно четным?");
         System.out.println(chet);
-
+*/
 
 
 

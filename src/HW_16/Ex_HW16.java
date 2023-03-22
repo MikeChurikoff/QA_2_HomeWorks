@@ -144,17 +144,17 @@ public class Ex_HW16 {
 
 
 
-    /*    Scanner inNum = new Scanner(System.in);
+        Scanner inNum = new Scanner(System.in);
         System.out.println("Введите число");
         Integer num = inNum.nextInt();
         String strNum = Integer.toString(num);
-        String revStrNum = new StringBuilder(num).reverse().toString();
+        String revStrNum = new StringBuilder(strNum).reverse().toString();
         //System.out.println(strNum.equals(revStrNum)?"Палиндром":"Не палиндром");
         if (strNum.equals(revStrNum)) {
             System.out.println("Палиндром");
         } else {
             System.out.println("Не палиндром");
-        }*/
+        }
 
 
       /*  Scanner inNum = new Scanner(System.in);
@@ -209,7 +209,7 @@ public class Ex_HW16 {
 
 
 
-        Scanner storage = new Scanner(System.in);
+     /*   Scanner storage = new Scanner(System.in);
         System.out.println("Введите обьем склада");
         int inTotalVolume = storage.nextInt();
         int countOfMetal =0;
@@ -229,7 +229,7 @@ public class Ex_HW16 {
         }
 
 
-
+*/
 
     }
 }
