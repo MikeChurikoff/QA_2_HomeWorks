@@ -1,6 +1,8 @@
 package HW_18;
 
-public class NumSum {
+public class SumNum {
+
+
   /*  public static void printSum(int a, int b) {
         int sum = a + b;
         System.out.println(sum);
@@ -31,7 +33,12 @@ public class NumSum {
             int sum = calcSum(x, y);
             System.out.println(x + " + " + y + " равно " + sum);
         }
+
+
+
 }
+
+
 
 
 
