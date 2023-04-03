@@ -41,7 +41,7 @@ package HW_19;
         public int getGpu() {
             return cpu;
         }
-        public void setGpu(int gpu) {
+        public void setcpu(int gpu) {
             this.cpu = cpu;
         }
         public String getInfo() {
@@ -52,7 +52,7 @@ package HW_19;
             System.out.println(pc.getInfo());
 
             pc.setPrice(1000);
-            pc.setGpu(8);
+            pc.setcpu(8);
             System.out.println(pc.getInfo());
         }
     }

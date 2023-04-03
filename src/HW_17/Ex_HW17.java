@@ -1,10 +1,11 @@
 package HW_17;
 
-import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Ex_HW17 {
-    public static void main(String[] args) {
+
+        public static void main(String[] args) {
 
 
       /*  String[] names = {"Петя", "Маша", "Алёна", "Федя", "Саша", "Антон", "Глеб"};
@@ -25,23 +26,30 @@ public class Ex_HW17 {
 */
 
 
-       /* int[] array = {2, 5, 7, 12, 37, 16, 4, 22, 77, 9};
-        Scanner intNumber = new Scanner(System.in);
-        System.out.println("Введите проверочное число");
-                int number = intNumber.nextInt();
-                boolean checkNum = false;
-                for (int i = 0; i < array.length; i++) {
-                    if (array[i] == number) {
-                        checkNum = true;
-                        break;
-                    }
+            Scanner intNumber = new Scanner(System.in);
+            System.out.println("Введите проверочное число");
+            int number = intNumber.nextInt();
+
+            int[] array = new int[10];
+            Random random = new Random();
+
+            for (int i = 0; i < array.length; i++) {
+                array[i] = random.nextInt(100);
+                System.out.print(array[i] + " ");
+            }
+
+            boolean checkNum = false;
+            for (int i = 0; i < array.length; i++) {
+                if (array[i] == number) {
+                    checkNum = true;
+                    break;
                 }
-                if (checkNum) {
-                    System.out.println("Число " + number + " присутствует");
-                } else {
-                    System.out.println("А вот " + number + " таки нет");
-                }
-*/
+            }
+            if (checkNum) {
+                System.out.println("\nЧисло " + number + " присутствует");
+            } else {
+                System.out.println("\nА вот " + number + " таки нет");
+            }
 
 
        /* int[] array = new int[45];
@@ -111,7 +119,7 @@ public class Ex_HW17 {
 
 
 
-        Scanner input = new Scanner(System.in);
+       /* Scanner input = new Scanner(System.in);
         System.out.print("Введите цифру основания треугольника: ");
         int side = input.nextInt();
         for (int i = side; i > 0; i--) {
@@ -132,8 +140,11 @@ public class Ex_HW17 {
         }
 
 
+    }*/
+        }
     }
-}
+
+
 
 
 
